@@ -4,11 +4,9 @@ Descrição
 Esta aplicação permite que o usuário aprenda música através do seu dispositivo utilizando IA.
 
 
-#Tecnologias
+Tecnologias
 Back-End: Flask
-
 Front-End: React
-
 Banco de dados: MongoDB
 
 Repositório do projeto do curso Prática Profissional em AD
