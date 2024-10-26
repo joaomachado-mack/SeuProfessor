@@ -1,10 +1,11 @@
 Seu Professor – Sistema de aulas de música utilizando IA
 
-#Descrição
+Descrição
 Esta aplicação permite que o usuário aprenda música através do seu dispositivo utilizando IA.
 
 Tecnologias
-Back-End: Front-End 
+Back-End: Flask
+Front-End: React
 Banco de dados: MongoDB
 
 Repositório do projeto do curso Prática Profissional em AD
