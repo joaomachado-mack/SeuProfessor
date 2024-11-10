@@ -1,12 +1,28 @@
-<!-- frontend/public/index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seu Professor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Consultas - Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="root"></div> <!-- Esta div é essencial -->
+    <div class="login-container">
+        <h1>Controle de Consultas</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required autofocus>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="button-container">
+                <button type="button" onclick="cancelar()">Sair</button>
+                <button type="submit">Entrar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
